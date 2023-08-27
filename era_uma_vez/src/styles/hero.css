@@ -1,0 +1,20 @@
+.line {
+  display: inline-block;
+  position: relative;
+}
+
+.line-stroke {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  pointer-events: none;
+  animation: animateDash 2s linear forwards infinite;
+}
+
+@keyframes animateDash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+

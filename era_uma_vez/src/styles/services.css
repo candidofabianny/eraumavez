@@ -1,0 +1,9 @@
+@keyframes blink {
+    0% { opacity: 1; filter: blur(0); }
+    80% { opacity: 1; filter: blur(2px); }
+    100% { opacity: 1; filter: blur(0); }
+  }
+  
+  .blinking-svg {
+    animation: blink 1.2s linear infinite;
+  }
