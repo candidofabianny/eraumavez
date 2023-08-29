@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import Hero from "./Hero";
+import About from "./About";
 
 
 const Home = () => {
@@ -16,8 +17,9 @@ const Home = () => {
 
   return (
     <>
-      <section className="w-full flex flex-col items-center gap-12 mb-16" ref={servicesRef}>
+      <section className="w-full flex flex-col items-center" ref={servicesRef}>
         <Hero />
+        <About />
       </section>
      </>
   );

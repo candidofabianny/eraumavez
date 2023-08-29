@@ -7,7 +7,7 @@ import seta from "public/assets/images/hero/seta.svg"
 
 const Hero = () => {
   return (
-      <div className="bg-[url('/assets/images/hero/bg_hero.svg')] flex flex-col items-center justify-center min-h-[615px] w-full">
+      <div className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full">
         <div className="hidden md:block columns-2">
         <div>
         <h1 className="pt-36 px-10 lg:px-12 text-[4.25rem] lg:text-[5.125rem] text-purple text-left">
@@ -65,7 +65,7 @@ const Hero = () => {
             width={60}
             height={57}
             alt="Home page button"
-            className="py-2 hover:scale-105 transition-all duration-[100]"
+            className="pb-8 hover:scale-105 transition-all duration-[100]"
           /> 
           </button>  
           </div>      

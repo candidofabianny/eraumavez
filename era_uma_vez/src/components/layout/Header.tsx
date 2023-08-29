@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full py-2 fixed top-0 bg-transparent">
+    <header className="w-full py-2 fixed top-4 bg-transparent">
     <nav className="w-full mx-auto flex items-center justify-center">
         {/* Desktop version */}
         <ul className="flex items-center gap-6 md:gap-8">
@@ -23,22 +23,22 @@ const Header = () => {
             </button>     
           </li>
           <li>
-            <Link href="/ler" className="text-purple hover:text-yellow transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
+            <Link href="/ler" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] md:text[1.25rem] lg:text-[1.5rem]">
               Ler
             </Link>
           </li>
           <li>
-            <Link href="/assistir" className="text-purple hover:text-yellow transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
+            <Link href="/assistir" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] md:text[1.25rem] lg:text-[1.5rem]">
               Assistir
             </Link>
           </li>
           <li>
-            <Link href="/sobre_nós" className="font-aclonica text-purple hover:text-yellow transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.18rem]">
+            <Link href="/sobre_nós" className="font-aclonica text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
               Sobre Nós
             </Link>
           </li>
           <li>
-          <Link href="/ouvir" className="text-purple hover:text-yellow transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
+          <Link href="/ouvir" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] md:text[1.25rem] lg:text-[1.5rem]">
               Ouvir
             </Link>
           </li>
