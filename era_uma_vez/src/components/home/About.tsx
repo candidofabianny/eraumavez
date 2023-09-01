@@ -2,37 +2,43 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import menino from "public/assets/images/hero/boy_about.png"
-import livro from "public/assets/images/hero/homebook.png"
 import setaUp from "public/assets/images/hero/seta_up.svg"
+import { Container } from "postcss";
 
 const About = () => {
   return (
-      <div className="bg-[url('/assets/images/hero/bg_about.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full">
-        <p className="hidden md:block pt-36 px-14 text-[1.75rem] lg:text-[2.125rem] text-darkpurple justify-center text-left">
-        Olhando atentamente para o dia a dia das crianças, percebemos o quanto é importante incentivar o gosto pela leitura. Queremos aumentar o número de histórias que elas conhecem, usando tecnologias digitais para isso.
-        </p>  
-        <div className="hidden md:block columns-2">
-        <Image
-            src={menino}
-            width={250}
-            height={290}
-            alt="Home page Robot"
-            className="mx-auto pt-28 hover:scale-105 transition-all duration-[100]"
-          />  
-          <button type="button" className="bg-transparent pt-2 hover:scale-105 transition-all duration-[100]">
+    <section
+    id="aboutid"> 
+      <div className="bg-[url('/assets/images/hero/bg_about.svg')] bg-center flex flex-col items-center justify-center min-h-[611px] w-full"> 
+        <div className="hidden md:block">
+        <div className="flex items-center justify-center pt-28">
+        <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
             src={setaUp}
             width={60}
             height={57}
-            alt="Home page button"
-            className="pt-20 hover:scale-105 transition-all duration-[100]"
+            alt="go back to home page button"
+            className="hover:scale-105 transition-all duration-[100]"
           /> 
-          </button>  
-
-        </div>
-        <div className="md:hidden sm:block mt-28">
+          </Link> 
+          </div> 
+        <p className="pt-12 px-14 text-[1.5rem] lg:text-[1.6rem] lg:px-48 text-darkpurple justify-center">
+        Olhando atentamente para o dia a dia das crianças, percebemos o quanto é importante incentivar o gosto pela leitura. Queremos aumentar o número de histórias que elas conhecem, usando tecnologias digitais para isso.
+        </p>     
+        <div className="flex items-end justify-center">
+          <Image
+            src={menino}
+            width={330}
+            height={322}
+            alt="About boy"
+            className="hover:scale-105 transition-all duration-[100]"
+          />
+          </div>
+          </div>
+        
+        <div className="md:hidden sm:block mt-24">
         <div className="flex items-center justify-center">
-        <button type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
+        <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
             src={setaUp}
             width={60}
@@ -40,9 +46,9 @@ const About = () => {
             alt="go back to home page button"
             className="pt-2 hover:scale-105 transition-all duration-[100]"
           /> 
-          </button> 
+          </Link> 
           </div>
-        <p className="pt-24 px-20 lg:px-12 text-[1.25rem] lg:text-[5.125rem] text-purple text-left">
+        <p className="pt-16 px-20 lg:px-12 text-[1.25rem] lg:text-[5.125rem] text-darkpurple text-left">
         Olhando atentamente para o dia a dia das crianças, percebemos o quanto é importante incentivar o gosto pela leitura. Queremos aumentar o número de histórias que elas conhecem, usando tecnologias digitais para isso.
         </p>  
         <Image
@@ -54,6 +60,7 @@ const About = () => {
           />  
        </div>
       </div>
+      </section>
   );
 };
 

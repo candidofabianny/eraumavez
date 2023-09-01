@@ -8,19 +8,18 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full py-2 fixed top-4 bg-transparent">
+    <header className="w-full py-1 fixed top-0 bg-opacity-95 bg-grey">
     <nav className="w-full mx-auto flex items-center justify-center">
-        {/* Desktop version */}
-        <ul className="flex items-center gap-6 md:gap-8">
+        <ul className="flex items-center gap-6 md:gap-7">
           <li>
-          <button type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
+          <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
             <Image
             src={logo}
-            width={50}
-            height={82}
+            width={45}
+            height={62}
             alt="site logo"
             className=""/>    
-            </button>     
+            </Link>     
           </li>
           <li>
             <Link href="/ler" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] md:text[1.25rem] lg:text-[1.5rem]">
@@ -39,7 +38,7 @@ const Header = () => {
           </li>
           <li>
           <Link href="/ouvir" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] md:text[1.25rem] lg:text-[1.5rem]">
-              Ouvir
+              Escutar
             </Link>
           </li>
         </ul>      

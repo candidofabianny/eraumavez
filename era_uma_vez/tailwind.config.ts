@@ -13,7 +13,7 @@ const config: Config = {
         aclonica: ["var(--font-aclonica)", "sans-serif"],
       },
       colors: {
-        darkpurple: "#40347C",
+        darkpurple: "#6050AD",
         purple: "#6354AD",
         blue: "#0BC4D6",
         yellow: "#FED713",

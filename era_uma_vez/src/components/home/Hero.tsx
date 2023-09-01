@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import About from "./About";
 import Link from "next/link";
 import robo from "public/assets/images/hero/blue_robot.png"
 import livro from "public/assets/images/hero/homebook.png"
@@ -7,7 +8,9 @@ import seta from "public/assets/images/hero/seta.svg"
 
 const Hero = () => {
   return (
-      <div className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full">
+    <section
+    id="heroid" className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full"> 
+      
         <div className="hidden md:block columns-2">
         <div>
         <h1 className="pt-36 px-10 lg:px-12 text-[4.25rem] lg:text-[5.125rem] text-purple text-left">
@@ -33,15 +36,15 @@ const Hero = () => {
             alt="Home page Robot"
             className="mx-auto pt-28 hover:scale-105 transition-all duration-[100]"
           />  
-          <button type="button" className="bg-transparent py-2 hover:scale-105 transition-all duration-[100]">
+          <Link href="#aboutid" className="bg-transparent pt-20 hover:scale-105 transition-all duration-[100]">
           <Image
             src={seta}
             width={60}
             height={57}
             alt="Home page button"
-            className="pt-20 hover:scale-105 transition-all duration-[100]"
+            className="hover:scale-105 transition-all duration-[100]"
           /> 
-          </button>  
+          </Link>  
 
         </div>
         <div className="md:hidden sm:block mt-28">
@@ -59,7 +62,7 @@ const Hero = () => {
             className="mx-auto py-6 hover:scale-105 transition-all duration-[100]"
           />  
           <div className="flex items-center justify-center">
-          <button type="button" className="bg-transparent py-2 hover:scale-105 transition-all duration-[100]">
+          <Link href="#aboutid" type="button" className="bg-transparent py-2 hover:scale-105 transition-all duration-[100]">
           <Image
             src={seta}
             width={60}
@@ -67,10 +70,10 @@ const Hero = () => {
             alt="Home page button"
             className="pb-8 hover:scale-105 transition-all duration-[100]"
           /> 
-          </button>  
+          </Link>  
           </div>      
          </div>
-      </div>
+      </section>
   );
 };
 

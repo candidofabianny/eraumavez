@@ -2,6 +2,8 @@ import React from "react";
 import { useRef } from "react";
 import Hero from "./Hero";
 import About from "./About";
+import Menu from "./Menu";
+import MeetUs from "./MeetUs";
 
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
       <section className="w-full flex flex-col items-center" ref={servicesRef}>
         <Hero />
         <About />
+        <Menu />
+        <MeetUs />
       </section>
      </>
   );
