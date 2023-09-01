@@ -3,8 +3,10 @@
 import { useRef, useState } from "react";
 import cardsData from "./cardsData";
 import Image from "next/image";
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { SwiperSlide } from "swiper/react";
+import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
 
 function MeetUs() {
   const [slideBegOrNot, handleSlideByState] = useState({
