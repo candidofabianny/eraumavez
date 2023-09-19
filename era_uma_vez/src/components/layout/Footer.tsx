@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
-  const Logo = "/assets/images/logo.svg";
+  const Logo = "/assets/icons/logo.svg";
   const youtube = "/assets/images/social/youtube.svg";
   const facebook = "/assets/images/social/facebook.svg";
   const instagram = "/assets/images/social/instagram.svg";
@@ -19,12 +19,12 @@ const Footer = () => {
         <div className="flex flex-col">
           
           <div className="hidden md:flex md:gap-5 md:mt-8">
-            <Link href="/" className="w-6 h-6">
+            <Link href="/" className="">
               <Image
-                src={youtube}
-                alt="Youtube social icon"
-                width={24}
-                height={24}
+                src={Logo}
+                alt="era uma vez icon"
+                width={82}
+                height={82}
               />
             </Link>
           </div>
