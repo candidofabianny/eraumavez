@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header";
 import "./globals.css";
 import "./animation.css";
 import { Aclonica, Crushed } from "next/font/google";
+import Footer from "@/components/layout/Footer";
 
 const crushed = Crushed({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
         <body className="font-crushed">
           <Header />
           {children}
+          <Footer />
         </body>
     </html>
   );
