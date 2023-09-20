@@ -16,11 +16,9 @@ const Menu = () => {
         de literatura
         </p>
         <div className="columns-3">
-        <div className="flex pt-5">
           <button className="w-32 h-32 bg-purple rounded-full text-[2.2rem] text-grey hover:scale-105 transition-all duration-[100]">
             Assitir
           </button>
-        </div>
         <div className="flex pl-3">
           <button className="w-32 h-32 bg-purple rounded-full text-[2.2rem] text-grey hover:scale-105 transition-all duration-[100]">
             Ler
