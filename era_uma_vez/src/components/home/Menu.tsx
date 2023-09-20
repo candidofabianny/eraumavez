@@ -48,7 +48,7 @@ const Menu = () => {
         </p>
           </div>
         <div className="columns-3 items-center">
-        <div className="flex pl-6 pt-2">
+        <div className="flex pl-6">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-75 transition-all duration-[100]">
             Assitir
           </button>
