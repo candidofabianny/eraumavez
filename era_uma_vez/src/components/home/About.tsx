@@ -3,16 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import menino from "public/assets/images/hero/boy_about.png"
 import setaUp from "public/assets/images/hero/seta_up.svg"
-import { Container } from "postcss";
 
 const About = () => {
   return (
     <section
-    id="aboutid"> 
+    id="sobre"> 
       <div className="bg-[url('/assets/images/hero/bg_about.svg')] bg-center flex flex-col items-center justify-center min-h-[611px] w-full"> 
         <div className="hidden md:block">
         <div className="flex items-center justify-center pt-28">
-        <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
+        <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
             src={setaUp}
             width={60}
@@ -38,7 +37,7 @@ const About = () => {
         
         <div className="md:hidden sm:block mt-24">
         <div className="flex items-center justify-center">
-        <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
+        <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
             src={setaUp}
             width={60}

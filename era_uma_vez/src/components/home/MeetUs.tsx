@@ -122,7 +122,7 @@ function MeetUs() {
         >
           {cardsData.map((card) => (
             <SwiperSlide key={card.id}>
-              <div className="bg-white border border-gray_smooth shadow-lg w-[225px] h-[300px] rounded-2xl py-6 px-1">
+              <div className="bg-white border border-gray_smooth shadow-lg w-[225px] h-[308px] rounded-2xl py-6 px-1">
                   <div className="flex justify-center items-center">
                     <Image
                       src={card.image}

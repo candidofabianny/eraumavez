@@ -12,7 +12,7 @@ const Header = () => {
     <nav className="w-full mx-auto flex items-center justify-center">
         <ul className="flex items-center gap-6 md:gap-7">
           <li>
-          <Link href="#heroid" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
+          <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
             <Image
             src={logo}
             width={45}
