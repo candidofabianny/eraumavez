@@ -49,16 +49,16 @@ const Menu = () => {
           </div>
         <div className="columns-3 items-center">
         <div className="flex pl-6 pt-2">
-          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-75 transition-all duration-[100]">
             Assitir
           </button>
         </div>
         <div className="flex">
-          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-75 transition-all duration-[100]">
             Ler
           </button>
         </div> 
-          <button className="w-20 h-20 bg-purple rounded-full text-[1.65rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.65rem] text-grey hover:scale-75 transition-all duration-[100]">
             Escutar
           </button>
         </div>
