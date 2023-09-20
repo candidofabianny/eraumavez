@@ -43,12 +43,12 @@ const Menu = () => {
         
         <div className="md:hidden sm:block">
         <div className="flex items-center justify-center">
-        <p className="font-aclonica pt-24 pb-8 px-20 text-[2rem] text-darkpurple text-left">
+        <p className="font-aclonica pt-16 pb-8 px-20 text-[2rem] text-darkpurple text-left">
         Escolha o tipo de literatura
         </p>
           </div>
         <div className="columns-3 items-center">
-        <div className="flex pl-4 pt-4">
+        <div className="flex pl-6 pt-2">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-105 transition-all duration-[100]">
             Assitir
           </button>

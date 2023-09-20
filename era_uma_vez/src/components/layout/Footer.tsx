@@ -46,25 +46,29 @@ const Footer = () => {
           <li className="foot_link text-[1.5rem] md:text-base text-white hover:text-yellow">
               <Link href="/">Sobre Nós</Link>
           </li>
-
           <li className="foot_link text-[1.5rem] md:text-base text-white hover:text-yellow">
               <Link href="/">CMEI</Link>
           </li>
         </ul>
-        <div className="md:hidden">
-          <h3 className="block text-base md:text-[1.5rem] font-semibold leading-[35px] text-[#9EA7AD] mb-4">
-            Social Links
-          </h3>
-          <div className="flex gap-5 mt-5">
-            <Link href="/" className="w-6 h-6 ">
+        <div className="md:hidden flex justify-center md:gap-2 md:mt-6">
+            <Link href="/" className="">
+              <Image
+                src={Logo}
+                alt="era uma vez icon"
+                width={62}
+                height={62}
+              />
             </Link>
           </div>
-        </div>
       </div>
-      <div className="flex justify-between mx-auto gap-2 text-grey bg-[#6354AD] py-5">
+      
+      <div className="hidden md:flex justify-between mx-auto gap-2 text-grey bg-[#6354AD] py-5">
         <p className="mx-20">2023 ©️ Era uma vez</p>
         <p className="mx-20">Desenvolvido por fc Global tech</p>
       </div>
+      <div className="md:hidden flex justify-center mx-auto gap-2 text-grey bg-[#6354AD] py-5">
+        <p className="mx-20">2023 ©️ Era uma vez</p>
+      </div>      
     </footer>
   );
 };
