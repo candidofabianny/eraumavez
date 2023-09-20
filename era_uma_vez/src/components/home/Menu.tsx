@@ -62,13 +62,15 @@ const Menu = () => {
             Escutar
           </button>
         </div>
+        <div className="mt-16">
         <Image
             src={menino}
-            width={248}
-            height={225}
+            width={245}
+            height={222}
             alt="Menu page boy"
-            className="mx-auto hover:scale-75 transition-all duration-[100]"
+            className="mx-auto"
           /> 
+          </div>
        </div>
       </div>
       
