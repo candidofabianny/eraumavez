@@ -53,7 +53,7 @@ const Menu = () => {
             Assitir
           </button>
         </div>
-        <div className="flex">
+        <div className="flex pl-2">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-75 transition-all duration-[100]">
             Ler
           </button>
@@ -64,8 +64,8 @@ const Menu = () => {
         </div>
         <Image
             src={menino}
-            width={268}
-            height={245}
+            width={248}
+            height={225}
             alt="Menu page boy"
             className="mx-auto hover:scale-75 transition-all duration-[100]"
           /> 
