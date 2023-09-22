@@ -8,8 +8,8 @@ import seta from "public/assets/images/hero/seta.svg"
 const Hero = () => {
   return (
     <section
-    className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center mt-10 flex flex-col items-center justify-center min-h-[615px] w-full">       
-        <div className="hidden md:block columns-2">
+    className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full">       
+        <div className="hidden md:block columns-2 mt-4">
         <div>
         <h1 className="pt-36 px-10 lg:px-12 text-[4.25rem] lg:text-[5.125rem] text-purple text-left">
           Era uma vez
@@ -40,12 +40,12 @@ const Hero = () => {
             width={60}
             height={57}
             alt="Home page button"
-            className="hover:scale-105 transition-all duration-[100]"
+            className="hover:scale-105 mx-auto transition-all duration-[100]"
           /> 
           </Link>  
 
         </div>
-        <div className="md:hidden sm:block mt-28">
+        <div className="md:hidden sm:block mt-36">
         <h1 className="text-[4.8rem] text-purple text-center">
           Era uma vez
         </h1>
@@ -59,7 +59,7 @@ const Hero = () => {
             alt="Home page Robot"
             className="mx-auto py-6 hover:scale-105 transition-all duration-[100]"
           />  
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mb-6">
           <Link href="#sobre" type="button" className="bg-transparent py-2 hover:scale-105 transition-all duration-[100]">
           <Image
             src={seta}
