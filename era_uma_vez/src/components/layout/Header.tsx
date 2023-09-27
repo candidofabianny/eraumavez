@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { useRouter } from 'next/router';
 import Image from "next/image";
 import logo from "/public/assets/icons/logo.svg"
 const Header = () => {
@@ -32,7 +31,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" className="font-aclonica text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
+            <Link href="/sobre-nos" className="font-aclonica text-purple hover:text-red transition-all duration-300 ease-in-out text-[1rem] lg:text-[1.25rem]">
               Sobre Nós
             </Link>
           </li>

@@ -1,6 +1,5 @@
 "use client";
 
-import { useRef, useState } from "react";
 import cardsData from "./cardsData";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,18 +7,6 @@ import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
 import 'swiper/css/bundle';
 
 function MeetUs() {
-  const [slideBegOrNot, handleSlideByState] = useState({
-    isFirst: true,
-    isLast: false,
-  });
-  const SlideRef = useRef<any>();
-  const onSlideChange = (swiper: any) => {
-    handleSlideByState({
-      isFirst: swiper.isBeginning,
-      isLast: swiper.isEnd,
-    });
-  };
-
   return (
     <section id="meet-us" className="w-full py-24 bg-[url('/assets/images/hero/bg_meetUs.png')] bg-center min-h-[615px]">
       <header className="w-full py-1 bg-opacity-95 bg-grey">
@@ -30,14 +17,12 @@ function MeetUs() {
       <div className="flex items-center pt-10 pl-5 md:pl-8 lg:pl-12 xl:pl-16 w-full mx-auto">
         <Swiper
           freeMode={true}
-          ref={SlideRef}
           autoplay={{
             delay: 3000,
             pauseOnMouseEnter: true,
           }}
           slidesPerView={1.5}
           spaceBetween={3}
-          onSlideChange={onSlideChange}
           navigation={false}
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
           breakpoints={{

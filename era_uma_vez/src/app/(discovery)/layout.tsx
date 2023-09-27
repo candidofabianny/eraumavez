@@ -20,7 +20,7 @@ const aclonica = Aclonica({
 
 export const metadata = {
   title: "Era Uma Vez",
-  description: "Join our Community",
+  description: "Leia mais com tecnologia",
 };
 
 export default function RootLayout({

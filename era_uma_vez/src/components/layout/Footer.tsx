@@ -6,7 +6,7 @@ const Footer = () => {
   const Logo = "/assets/icons/logo.svg";
   return (
     <footer className="w-full">
-      <div className="hidden md:flex flex-col mx-auto justify-between py-10 bg-[#9B90D3] md:flex-row md:pl-[48px] md:pr-[60px] lg:pr-[115px] lg:pl-[83px]">
+      <div className="hidden md:flex flex-col mx-auto justify-between py-6 bg-[#9B90D3] md:flex-row md:pl-[48px] md:pr-[60px] lg:pr-[115px] lg:pl-[83px]">
         <div className="flex flex-col w-1/3">
           <div className="flex md:gap-2 md:mt-6">
             <Link href="/" className="">
@@ -20,33 +20,33 @@ const Footer = () => {
           </div>
         </div>
         <ul className="flex flex-col gap-3">
-          <h3 className="block text-yellow font-aclonica lg:text-[1.5rem] text-[#9EA7AD] mb-1">
+          <h3 className="block text-yellow font-aclonica text-[1.2rem] text-[#9EA7AD] mb-1">
             literatura
           </h3>
-          <li className="foot_link text-[1.5rem] text-white">
+          <li className="foot_link text-[1rem] text-white">
             <Link href="/" className="hover:text-yellow">
               Ler
             </Link>
           </li>
-          <li className="foot_link text-[1.5rem] text-white">
+          <li className="foot_link text-[1rem] text-white">
             <Link href="/" className="hover:text-yellow">
               Assistir
             </Link>
           </li>
-          <li className="foot_link text-[1.5rem] text-white">
+          <li className="foot_link text-[1rem] text-white">
             <Link href="/" className="hover:text-yellow">
               Escutar
             </Link>
           </li>
         </ul>
         <ul className="flex flex-col gap-2">
-          <h3 className="block font-aclonica text-yellow lg:text-[1.5rem] text-[#9EA7AD] mb-1">
+          <h3 className="block font-aclonica text-yellow text-[1.2rem] text-[#9EA7AD] mb-1">
             links Importantes
           </h3>
-          <li className="foot_link text-[1.5rem] text-white hover:text-yellow">
-              <Link href="/">Sobre Nós</Link>
+          <li className="foot_link text-[1rem] text-white hover:text-yellow">
+              <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
-          <li className="foot_link text-[1.5rem] text-white hover:text-yellow">
+          <li className="foot_link text-[1rem] text-white hover:text-yellow">
               <Link href="/">CMEI</Link>
           </li>
         </ul>

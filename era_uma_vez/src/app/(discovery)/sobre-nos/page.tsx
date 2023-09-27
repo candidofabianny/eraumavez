@@ -1,6 +1,6 @@
 'use client';
 
-import SobreNos from "@/components/about-us/SobreNos";
+import SobreNos from "@/components/sobre-nós/SobreNos";
 
 const sobreNos = () => {
   return (
