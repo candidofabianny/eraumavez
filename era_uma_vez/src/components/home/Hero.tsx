@@ -8,13 +8,13 @@ import seta from "public/assets/images/hero/seta.svg"
 const Hero = () => {
   return (
     <section
-    className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[615px] w-full">       
-        <div className="hidden md:block columns-2 mt-4">
+    className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[655px] w-full">       
+        <div className="hidden lg:block columns-2 mt-4">
         <div>
-        <h1 className="pt-36 px-10 lg:px-12 text-[4.25rem] lg:text-[5.125rem] text-purple text-left">
+        <h1 className="pt-36 px-16 text-[5.2rem] text-purple text-left">
           Era uma vez
         </h1>
-        <p className="px-10 lg:px-12 text-[1.25rem] lg:text-[1.5rem] text-purple text-left">
+        <p className="px-16 text-[1.5rem] text-purple text-left">
         Leitura e contação de histórias, utilizando tecnologia como aliada da educação
         </p>   
         <div className="flex items-end justify-end">
@@ -45,7 +45,7 @@ const Hero = () => {
           </Link>  
 
         </div>
-        <div className="md:hidden sm:block mt-36">
+        <div className="lg:hidden sm:block mt-36">
         <h1 className="text-[4.8rem] text-purple text-center">
           Era uma vez
         </h1>
