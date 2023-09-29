@@ -7,7 +7,7 @@ import 'swiper/css/bundle';
 const Desafio = () => {
   return ( 
     <section
-      id="intro-sobre"
+      id="desafio"
       className="bg-[#D4FBFF]/50 flex flex-col justify-center min-h-[450px] w-full">
         <div className="flex flex-col items-center justify-center">
           <h2 className="font-aclonica text-purple mx-12 pt-2 lg:max-w-[900px] text-center md:text-left text-[1.4rem] md:text-[1.45rem]">
@@ -59,7 +59,7 @@ const Desafio = () => {
             <SwiperSlide key={card.id}>
               <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[310px] h-[300px] lg:w-[895px] md:w-[725px] md:h-[208px] rounded-2xl">
                     <div className="flex px-8 lg:px-14">
-                      <p className="text-darkpurple lg:text-[1.2rem]">
+                      <p className="text-darkpurple text-[1rem] lg:text-[1.2rem]">
                         {card.text}
                       </p>
                 </div>

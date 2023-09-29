@@ -4,7 +4,7 @@ import cmei from "public/assets/images/sobre/cmei_foco.png"
 const Foco = () => {
   return (
     <section
-      id="hero-sobre"
+      id="foco"
       className="bg-[url('/assets/images/sobre/bg_foco.svg')] bg-center bg-cover flex flex-col justify-center min-h-[615px] w-full">
       <div className="lg:hidden flex justify-center mt-10">
       <Image

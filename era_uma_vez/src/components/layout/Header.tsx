@@ -1,11 +1,9 @@
 "use client"
 
-import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "/public/assets/icons/logo.svg"
 const Header = () => {
-  const [open, setOpen] = useState(false);
   return (
     <header className="w-full py-1 fixed top-0 bg-opacity-95 bg-grey">
     <nav className="w-full mx-auto flex items-center justify-center">

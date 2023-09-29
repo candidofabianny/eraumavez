@@ -47,16 +47,16 @@ const Menu = () => {
           </div>
         <div className="columns-3 items-center">
         <div className="flex pl-6">
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-blue">
             Assitir
           </button>
         </div>
         <div className="flex pl-2">
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-red">
             Ler
           </button>
         </div> 
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.65rem] text-grey hover:scale-105 transition-all duration-[100]">
+          <button className="w-24 h-24 bg-purple rounded-full text-[1.65rem] text-grey hover:bg-yellow">
             Escutar
           </button>
         </div>
