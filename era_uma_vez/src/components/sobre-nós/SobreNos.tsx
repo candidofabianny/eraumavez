@@ -4,6 +4,8 @@ import Importancia from "./Importancia";
 import Foco from "./Foco";
 import Desafio from "./Desafio";
 import Processo from "./Processo";
+import EtapaII from "./EtapaII";
+import EtapaIII from "./EtapaIII";
 
 const SobreNos = () => {
   const servicesRef = useRef<HTMLDivElement>(null);
@@ -14,6 +16,8 @@ const SobreNos = () => {
       <Foco />
       <Desafio />
       <Processo />
+      <EtapaII />
+      <EtapaIII />
       </section>
   );
 };
