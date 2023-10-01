@@ -6,6 +6,8 @@ import Desafio from "./Desafio";
 import Processo from "./Processo";
 import EtapaII from "./EtapaII";
 import EtapaIII from "./EtapaIII";
+import EtapaIV from "./EtapaIV";
+import EtapaV from "./EtapaV";
 
 const SobreNos = () => {
   const servicesRef = useRef<HTMLDivElement>(null);
@@ -18,6 +20,8 @@ const SobreNos = () => {
       <Processo />
       <EtapaII />
       <EtapaIII />
+      <EtapaIV />
+      <EtapaV />
       </section>
   );
 };
