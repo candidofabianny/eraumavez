@@ -3,7 +3,6 @@ import sobreData from "./sobreData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
 import 'swiper/css/bundle';
-
 const Desafio = () => {
   return ( 
     <section
@@ -18,7 +17,7 @@ const Desafio = () => {
         <Swiper
           freeMode={true}
           autoplay={{
-            delay: 2000,
+            delay: 3500,
             pauseOnMouseEnter: true,
           }}
           slidesPerView={1}
@@ -27,7 +26,7 @@ const Desafio = () => {
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
           breakpoints={{
            420:{
-              slidesPerView: 1.1,
+              slidesPerView: 1.2,
             },
             500:{
               slidesPerView: 1.3,
@@ -57,9 +56,9 @@ const Desafio = () => {
           className="flex justify-center items-center">
           {sobreData.map((card) => (
             <SwiperSlide key={card.id}>
-              <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[310px] h-[300px] lg:w-[895px] md:w-[725px] md:h-[208px] rounded-2xl">
-                    <div className="flex px-8 lg:px-14">
-                      <p className="text-darkpurple text-[1rem] lg:text-[1.2rem]">
+              <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[278px] h-[280px] lg:w-[895px] md:w-[725px] md:h-[208px] rounded-2xl">
+                    <div className="flex px-4 lg:px-14">
+                      <p className="text-darkpurple text-[0.9rem] lg:text-[1.2rem]">
                         {card.text}
                       </p>
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import menina from "public/assets/images/ler/girlreading.png"
+import setaUp from "public/assets/images/hero/seta_up.svg"
 
 const Livros = () => {
   return (
@@ -13,7 +13,15 @@ const Livros = () => {
         </h1>
       </div>
       <div className="flex flex-row gap-2">
-      <div>hello</div>
+      <div>
+      <Image
+            src={setaUp}
+            width={60}
+            height={57}
+            alt="go back to home page button"
+            className="hover:scale-105 transition-all duration-[100]"
+          />
+      </div>
       <div>hi</div>
       </div>
     </section>    

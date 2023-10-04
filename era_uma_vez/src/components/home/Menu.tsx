@@ -15,27 +15,29 @@ const Menu = () => {
           <p className="font-aclonica pb-4 px-32 text-[2.5rem] lg:text-[2.6rem] text-darkpurple text-left">
         de literatura
         </p>
-        <div className="columns-3">
-          <button className="w-32 h-32 bg-purple rounded-full text-[2.2rem] text-grey hover:scale-105 transition-all duration-[100]">
-            Assitir
+        <div className="flex justify-around">
+        <Link href="/assistir">
+          <button className="w-24 h-24 bg-purple rounded-full text-[2.1rem] text-grey hover:scale-105 transition-all duration-[100]">
+            Assistir
           </button>
-        <div className="flex pl-3">
-          <button className="w-32 h-32 bg-purple rounded-full text-[2.2rem] text-grey hover:scale-105 transition-all duration-[100]">
+        </Link> 
+        <Link href="/ler">
+          <button className="w-24 h-24 bg-purple rounded-full text-[2.1rem] text-grey hover:scale-105 transition-all duration-[100]">
             Ler
           </button>
-        </div> 
-        <div className="flex pl-9 pb-4">
-          <button className="w-32 h-32 bg-purple rounded-full text-[2.2rem] text-grey hover:scale-105 transition-all duration-[100]">
+        </Link> 
+        <Link href="/escutar">
+          <button className="w-24 h-24 bg-purple rounded-full text-[2rem] text-grey hover:scale-105 transition-all duration-[100]">
             Escutar
           </button>
-        </div> 
+        </Link> 
         </div>
         <Image
             src={menino}
-            width={268}
-            height={245}
+            width={258}
+            height={225}
             alt="Menu page boy"
-            className="mx-auto hover:scale-75 transition-all duration-[100]"
+            className="mx-auto pt-6"
           /> 
           </div>
         
@@ -45,20 +47,13 @@ const Menu = () => {
         Escolha o tipo de literatura
         </p>
           </div>
-        <div className="columns-3 items-center">
-        <div className="flex pl-6">
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-blue">
-            Assitir
-          </button>
-        </div>
-        <div className="flex pl-2">
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-red">
-            Ler
-          </button>
-        </div> 
-          <button className="w-24 h-24 bg-purple rounded-full text-[1.65rem] text-grey hover:bg-yellow">
-            Escutar
-          </button>
+        <div className="flex justify-center gap-4">
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-blue">
+            Assitir </button>
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-red">
+            Ler </button>
+          <button className="w-20 h-20 bg-purple rounded-full text-[1.65rem] text-grey hover:bg-yellow">
+            Escutar </button>
         </div>
         <div className="mt-16">
         <Image

@@ -21,11 +21,14 @@ function MeetUs() {
             delay: 3000,
             pauseOnMouseEnter: true,
           }}
-          slidesPerView={1.5}
+          slidesPerView={1.2}
           spaceBetween={3}
           navigation={false}
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
           breakpoints={{
+            400:{
+              slidesPerView: 1.4,
+            },
            500:{
               slidesPerView: 1.9,
             },
