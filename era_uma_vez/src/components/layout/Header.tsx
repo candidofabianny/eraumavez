@@ -14,8 +14,7 @@ const Header = () => {
             src={logo}
             width={35}
             height={60}
-            alt="site logo"
-            className=""/>    
+            alt="site logo"/>    
             </Link>     
           </li>
           <li>

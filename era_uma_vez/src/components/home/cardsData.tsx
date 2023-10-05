@@ -1,4 +1,5 @@
 import Monica from "public/assets/icons/monicaAI.png"
+import Yasmin from "public/assets/icons/yasminAI.png"
 import Kids from "public/assets/icons/kidsAI.png"
 import Fabianny from "public/assets/icons/fabiannyAI.png"
 
@@ -25,7 +26,7 @@ const cardsData = [
         id: 4,
         name: "Yasmin Ribas",
         text: "Professora de Educação Infantil",
-        image: Kids,
+        image: Yasmin,
       },
     {
       id: 5,

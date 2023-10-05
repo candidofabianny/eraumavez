@@ -17,8 +17,7 @@ const HeroLer = () => {
             src={menina}
             width={240}
             height={220}
-            alt="Menina lendo"
-            className=""/>
+            alt="Menina lendo"/>
       </div>
     </section>    
   );

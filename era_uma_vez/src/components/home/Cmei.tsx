@@ -25,8 +25,7 @@ const CMEI = () => {
                       src={Acesse}
                       alt="Botão acesse aqui"
                       width={206}
-                      height={200}
-                      />
+                      height={200}/>
                     </Link>
               </button>
               </div>

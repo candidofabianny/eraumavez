@@ -39,8 +39,7 @@ const About = () => {
             src={setaUp}
             width={50}
             height={50}
-            alt="voltar para home"
-            className=""/> 
+            alt="voltar para home"/> 
           </Link> 
           </div>
           <div className="flex justify-center">
