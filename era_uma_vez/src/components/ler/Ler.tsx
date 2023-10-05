@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import HeroLer from "./HeroLer";
-import Livros from "./Livros";
+import Livro from "./Livros";
 
 
 const Ler = () => {
@@ -8,7 +8,7 @@ const Ler = () => {
   return (
       <section className="w-full flex flex-col items-center" ref={servicesRef}>
       <HeroLer />
-      <Livros />
+      <Livro />
       </section>
   );
 };
