@@ -13,9 +13,7 @@ const Footer = () => {
               <Image
                 src={Logo}
                 alt="era uma vez icon"
-                width={82}
-                height={82}
-              />
+                width={82} height={82}/>
             </Link>
           </div>
         </div>
@@ -24,17 +22,17 @@ const Footer = () => {
             literatura
           </h3>
           <li className="foot_link text-[1rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/ler" className="hover:text-yellow">
               Ler
             </Link>
           </li>
           <li className="foot_link text-[1rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/assistir" className="hover:text-yellow">
               Assistir
             </Link>
           </li>
           <li className="foot_link text-[1rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/escutar" className="hover:text-yellow">
               Escutar
             </Link>
           </li>
@@ -47,7 +45,7 @@ const Footer = () => {
               <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
           <li className="foot_link text-[1rem] text-white hover:text-yellow">
-              <Link href="/">CMEI</Link>
+              <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298" target="_blank">CMEI</Link>
           </li>
         </ul>
       </div>
@@ -58,17 +56,17 @@ const Footer = () => {
             literatura
           </h3>
           <li className="foot_link text-[1.5rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/ler" className="hover:text-yellow">
               Ler
             </Link>
           </li>
           <li className="foot_link text-[1.5rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/assistir" className="hover:text-yellow">
               Assistir
             </Link>
           </li>
           <li className="foot_link text-[1.5rem] text-white">
-            <Link href="/" className="hover:text-yellow">
+            <Link href="/escutar" className="hover:text-yellow">
               Escutar
             </Link>
           </li>
@@ -78,10 +76,10 @@ const Footer = () => {
             links Importantes
           </h3>
           <li className="foot_link text-[1.5rem] md:text-base text-white hover:text-yellow">
-              <Link href="/">Sobre Nós</Link>
+              <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
           <li className="foot_link text-[1.5rem] md:text-base text-white hover:text-yellow">
-              <Link href="/">CMEI</Link>
+              <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298" target="_blank">CMEI</Link>
           </li>
         </ul>
       </div>

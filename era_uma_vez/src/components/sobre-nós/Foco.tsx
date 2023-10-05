@@ -9,9 +9,8 @@ const Foco = () => {
       <div className="lg:hidden flex justify-center mt-10">
       <Image
             src={cmei}
-            width={210}
-            height={200}
-            alt="Home page book"
+            width={210} height={200}
+            alt="Cmei"
             className="hover:scale-105 transition-all duration-[100]"/>
       </div>
       <div className="flex items-center justify-center mt-10 mb-12">
@@ -20,9 +19,8 @@ const Foco = () => {
         </p>
         <Image
             src={cmei}
-            width={260}
-            height={220}
-            alt="Home page book"
+            width={260} height={220}
+            alt="Cmei"
             className="hidden lg:block py-6"/>
       </div>
     </section>    

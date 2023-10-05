@@ -8,7 +8,7 @@ import seta from "public/assets/images/hero/seta.svg"
 const Hero = () => {
   return (
     <section id="home"
-    className="bg-[url('/assets/images/hero/bg_hero.svg')] bg-center flex flex-col items-center justify-center min-h-[645px] w-full">       
+    className="bg-[url('/assets/images/hero/bg_hero.png')] bg-center flex flex-col items-center justify-center min-h-[645px] w-full">       
         <div className="hidden lg:block columns-2 mt-4">
         <div>
         <h1 className="pt-36 px-16 text-[5.1rem] text-purple text-left">
@@ -19,29 +19,20 @@ const Hero = () => {
         </p>   
         <div className="flex items-end justify-end">
         <Image
-            src={livro}
-            width={290}
-            height={197}
-            alt="Home page book"
-            className="py-6 hover:scale-105 transition-all duration-[100]"
-          />   
+            src={livro} width={290} height={197} alt="Livro aberto"
+            className="py-6 hover:scale-105 transition-all duration-[100]" />   
         </div>
         </div>
         <Image
             src={robo}
             width={250}
             height={290}
-            alt="Home page Robot"
-            className="mx-auto pt-28 hover:scale-105 transition-all duration-[100]"
-          />  
+            alt="Robô home"
+            className="mx-auto pt-28 hover:scale-105 transition-all duration-[100]"/>  
           <Link href="#sobre" className="bg-transparent pt-20 hover:scale-105 transition-all duration-[100]">
           <Image
-            src={seta}
-            width={60}
-            height={57}
-            alt="Home page button"
-            className="hover:scale-105 mx-auto transition-all duration-[100]"
-          /> 
+            src={seta} width={60} height={57} alt="Home page button"
+            className="hover:scale-105 mx-auto transition-all duration-[100]"/> 
           </Link>  
         </div>
 
@@ -61,10 +52,7 @@ const Hero = () => {
           <div className="flex items-center justify-center mb-6">
           <Link href="#sobre" type="button" className="bg-transparent py-2 hover:scale-105 transition-all duration-[100]">
           <Image
-            src={seta}
-            width={60}
-            height={50}
-            alt="Home page button"
+            src={seta} width={60} height={50} alt="Ir para sobre"
             className="pb-8 hover:scale-105 transition-all duration-[100]"/> 
           </Link>  
           </div>      

@@ -6,7 +6,7 @@ const Livros = () => {
   return (
     <section
       id="livros"
-      className="bg-[url('/assets/images/ler/bg_livros.svg')] bg-center bg-cover flex flex-col justify-center min-h-[903px] w-full">
+      className="bg-[url('/assets/images/ler/bg_livros.png')] bg-center bg-cover flex flex-col justify-center min-h-[903px] w-full">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-purple text-[1.2rem] md:text-[4.5rem] lg:text-[5rem]">
         Aqui se encontram PDFs para baixar ou ler online
@@ -15,11 +15,9 @@ const Livros = () => {
       <div>
       <Image
             src={setaUp}
-            width={60}
-            height={57}
+            width={60} height={57}
             alt="go back to home page button"
-            className="hover:scale-105 transition-all duration-[100]"
-          />
+            className="hover:scale-105 transition-all duration-[100]"/>
       </div>
       <div>hi</div>
       </div>

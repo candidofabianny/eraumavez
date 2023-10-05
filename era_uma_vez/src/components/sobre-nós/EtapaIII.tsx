@@ -3,7 +3,7 @@ const EtapaIII = () => {
   return (
     <section
       id="etapaIII"
-      className="bg-[url('/assets/images/sobre/bg_eIII.svg')] bg-center bg-cover flex flex-col min-h-[288px] w-full">
+      className="bg-[url('/assets/images/sobre/bg_eIII.png')] bg-center bg-cover flex flex-col min-h-[288px] w-full">
         <div className="flex flex-col justify-center items-center">
         <p className="md:hidden text-purple font-aclonica text-[1.5rem] max-w-[260px] py-8">ETAPA III: Envolvimento de toda unidade educacional</p>
         <div className="md:hidden bg-purple flex items-center justify-center border border-gray_smooth shadow-lg w-[80%] h-full rounded-2xl">

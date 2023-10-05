@@ -3,7 +3,7 @@ const EtapaIV = () => {
   return (
     <section
       id="etapaIV"
-      className="bg-[url('/assets/images/sobre/bg_eIV.svg')] bg-center bg-cover flex flex-col md:min-h-[320px] w-full">
+      className="bg-[url('/assets/images/sobre/bg_eIV.png')] bg-center bg-cover flex flex-col md:min-h-[320px] w-full">
         <div className="flex flex-col items-center pt-8">
         <p className="md:hidden text-purple font-aclonica text-[1.5rem] max-w-[260px] pb-4">ETAPA IV: Construção do robô</p>
         <div className="md:hidden bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[80%] h-full rounded-2xl">

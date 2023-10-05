@@ -19,26 +19,19 @@ const Menu = () => {
         <Link href="/assistir">
           <button className="w-24 h-24 bg-purple rounded-full text-[2.1rem] text-grey hover:scale-105 transition-all duration-[100]">
             Assistir
-          </button>
-        </Link> 
+          </button></Link> 
         <Link href="/ler">
           <button className="w-24 h-24 bg-purple rounded-full text-[2.1rem] text-grey hover:scale-105 transition-all duration-[100]">
             Ler
-          </button>
-        </Link> 
+          </button> </Link> 
         <Link href="/escutar">
           <button className="w-24 h-24 bg-purple rounded-full text-[2rem] text-grey hover:scale-105 transition-all duration-[100]">
             Escutar
-          </button>
-        </Link> 
+          </button> </Link> 
         </div>
         <Image
-            src={menino}
-            width={258}
-            height={225}
-            alt="Menu page boy"
-            className="mx-auto pt-6"
-          /> 
+            src={menino} width={258} height={225} alt="Menino"
+            className="mx-auto pt-6"/> 
           </div>
         
         <div className="md:hidden sm:block">
@@ -57,12 +50,8 @@ const Menu = () => {
         </div>
         <div className="mt-16">
         <Image
-            src={menino}
-            width={245}
-            height={222}
-            alt="Menu page boy"
-            className="mx-auto"
-          /> 
+            src={menino} width={245} height={222} alt="Menu menino"
+            className="mx-auto"/> 
           </div>
        </div>
       </div>

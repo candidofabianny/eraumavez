@@ -3,7 +3,7 @@ const Processo = () => {
   return (
     <section
       id="processo"
-      className="bg-[url('/assets/images/sobre/bg_processo.svg')] bg-center bg-cover flex flex-col justify-center min-h-[493px] w-full">
+      className="bg-[url('/assets/images/sobre/bg_processo.png')] bg-center bg-cover flex flex-col justify-center min-h-[493px] w-full">
         <div className="flex flex-col justify-center items-center">
         <p className="text-purple text-[3.4rem] lg:text-[4rem] pt-6">Nosso Processo</p>
         <p className="md:hidden text-purple font-aclonica text-[1.5rem] max-w-[260px] py-8">ETAPA I: Leitura a partir do livro físico e mídias digitais</p>

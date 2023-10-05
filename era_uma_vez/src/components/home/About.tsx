@@ -8,16 +8,12 @@ const About = () => {
   return (
     <section
     id="sobre"> 
-      <div className="bg-[url('/assets/images/hero/bg_about.svg')] bg-center flex flex-col min-h-[500px] w-full"> 
+      <div className="bg-[url('/assets/images/hero/bg_about.png')] bg-center flex flex-col min-h-[500px] w-full"> 
         <div className="hidden lg:block">
         <div className="flex items-center justify-center">
         <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
-            src={setaUp}
-            width={58}
-            height={58}
-            alt="voltar para home"
-            className="pt-20"/> 
+            src={setaUp} width={58} height={58} alt="voltar para home" className="pt-20"/> 
           </Link> 
           </div>
           <div className="flex justify-center">
@@ -36,10 +32,7 @@ const About = () => {
         <div className="flex items-center justify-center">
         <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
           <Image
-            src={setaUp}
-            width={50}
-            height={50}
-            alt="voltar para home"/> 
+            src={setaUp} width={50} height={50} alt="voltar para home"/> 
           </Link> 
           </div>
           <div className="flex justify-center">

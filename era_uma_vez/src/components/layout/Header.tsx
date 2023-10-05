@@ -11,10 +11,7 @@ const Header = () => {
           <li>
           <Link href="/" type="button" className="bg-transparent hover:scale-105 transition-all duration-[100]">
             <Image
-            src={logo}
-            width={35}
-            height={60}
-            alt="site logo"/>    
+            src={logo} width={35} height={60} alt="site logo"/>    
             </Link>     
           </li>
           <li>
@@ -33,7 +30,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-          <Link href="/ouvir" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[0.95rem] md:text[1.25rem] lg:text-[1.5rem]">
+          <Link href="/escutar" className="text-purple hover:text-red transition-all duration-300 ease-in-out text-[0.95rem] md:text[1.25rem] lg:text-[1.5rem]">
               Escutar
             </Link>
           </li>

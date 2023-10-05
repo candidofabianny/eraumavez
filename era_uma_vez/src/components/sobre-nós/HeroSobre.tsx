@@ -4,7 +4,7 @@ const HeroSobre = () => {
   return (
     <section
       id="hero-sobre"
-      className="bg-[url('/assets/images/sobre/bg_herosobre.svg')] bg-center bg-cover flex flex-col justify-center min-h-[515px] w-full">
+      className="bg-[url('/assets/images/sobre/bg_herosobre.png')] bg-center bg-cover flex flex-col justify-center min-h-[515px] w-full">
       <div className="flex flex-col items-center justify-center text-center">
         <h1 className="text-purple text-[5.1rem] md:text-[6.4rem] lg:text-[6.6rem]">
           Sobre Nós
