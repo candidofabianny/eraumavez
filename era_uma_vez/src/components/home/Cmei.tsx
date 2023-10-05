@@ -14,20 +14,20 @@ const CMEI = () => {
         </h1>
         </div>
         <div className="flex justify-center">
-        <button className="bg-yellow border border-gray_smooth shadow-lg w-[226px] md:w-[252px] h-[226px] md:h-[252px] rounded-2xl">
+        <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298" target="_blank" className="bg-yellow border border-gray_smooth shadow-lg w-[226px] md:w-[252px] h-[226px] md:h-[243px] rounded-2xl">
         <div className="text-center pt-4">
                   <h2 className="text-[1.9rem] text-purple">
                     Acesse Aqui
                   </h2>
                 </div>
-                  <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298" target="_blank" className="flex justify-center items-center">
+                  <div className="flex justify-center items-center pt-2">
                     <Image
                       src={Acesse}
                       alt="Botão acesse aqui"
                       width={206}
                       height={200}/>
-                    </Link>
-              </button>
+                    </div>
+              </Link>
               </div>
       </section>
   );
