@@ -18,9 +18,9 @@ const Footer = () => {
           </div>
         </div>
         <ul className="flex flex-col gap-3">
-          <h3 className="block text-yellow font-aclonica text-[1.2rem] text-[#9EA7AD] mb-1">
+          <li className="block text-yellow font-aclonica text-[1.2rem] text-[#9EA7AD] mb-1">
             literatura
-          </h3>
+          </li>
           <li className="foot_link text-[1rem] text-white">
             <Link href="/ler" className="hover:text-yellow">
               Ler
@@ -38,9 +38,9 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="flex flex-col gap-2">
-          <h3 className="block font-aclonica text-yellow text-[1.2rem] text-[#9EA7AD] mb-1">
+          <li className="block font-aclonica text-yellow text-[1.2rem] text-[#9EA7AD] mb-1">
             links Importantes
-          </h3>
+          </li>
           <li className="foot_link text-[1rem] text-white hover:text-yellow">
               <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
@@ -52,9 +52,9 @@ const Footer = () => {
       
       <div className="md:hidden flex flex-colum-2 pl-[18px] justify-around py-10 bg-[#9B90D3]">
         <ul className="flex flex-col gap-2">
-          <h3 className="block text-yellow font-aclonica lg:text-[1.5rem] text-[#9EA7AD]">
+          <li className="block text-yellow font-aclonica lg:text-[1.5rem] text-[#9EA7AD]">
             literatura
-          </h3>
+          </li>
           <li className="foot_link text-[1.5rem] text-white">
             <Link href="/ler" className="hover:text-yellow">
               Ler
@@ -72,9 +72,9 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="flex flex-col gap-2">
-          <h3 className="block font-aclonica text-yellow lg:text-[1.5rem] text-[#9EA7AD] mb-1">
+          <li className="block font-aclonica text-yellow lg:text-[1.5rem] text-[#9EA7AD] mb-1">
             links Importantes
-          </h3>
+          </li>
           <li className="foot_link text-[1.5rem] md:text-base text-white hover:text-yellow">
               <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
