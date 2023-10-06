@@ -5,20 +5,19 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
 import 'swiper/css/bundle';
+import Link from "next/link";
 
 function Livros() {
   return (
-    <section id="meet-us" className="w-full py-24 bg-[url('/assets/images/hero/bg_meetUs.png')] bg-center min-h-[615px]">
-      
-      <h2 className="text-[2rem] text-center text-purple">
-          Conheça o nosso projeto
+    <section id="livros" className="w-full py-24 bg-[url('/assets/images/ler/bg_livros.png')] bg-center min-h-[615px]">
+      <h2 className="text-[1.3rem] lg:text-[2rem] px-4 text-center text-purple">
+      Aqui se encontram PDF’s para baixar ou ler online
         </h2>
-        
       <div className="flex items-center pt-10 pl-5 md:pl-8 lg:pl-12 xl:pl-16 w-full mx-auto">
         <Swiper
           freeMode={true}
           autoplay={{
-            delay: 3000,
+            delay: 5000,
             pauseOnMouseEnter: true,
           }}
           slidesPerView={1.2}
@@ -46,29 +45,15 @@ function Livros() {
             },
           }}
           className="flex items-center justify-center mx-auto">
-          {cardsData.map((card) => (
-            <SwiperSlide key={card.id}>
-              <div className="bg-white border border-gray_smooth shadow-lg w-[225px] h-[308px] rounded-2xl py-6 px-1">
-                  <div className="flex justify-center items-center">
-                    <Image
-                      src={card.image}
-                      alt={card.name}
-                      width={170}
-                      height={170}
-                      className="rounded-full"
-                    />
-                    </div>
-                    <div className="text-center pt-4">
-                      <h2 className="font-aclonica text-[1rem] text-black">
-                        {card.name}
-                      </h2>
-                      <p className="text-black text-[0.75rem]">
-                        {card.title}
-                      </p>
-                </div>
-              </div>
+         
+            <SwiperSlide>
+            <div className="swiper-slide" data-hash="slide1">Slide 1</div>
+    <div className="swiper-slide" data-hash="slide2">Slide 2</div>
+    <div className="swiper-slide" data-hash="slide3">Slide 3</div>
+    <div className="swiper-slide" data-hash="slide4">Slide 4</div>
+    <div className="swiper-slide" data-hash="slide5">Slide 5</div>
             </SwiperSlide>
-          ))}
+        
         </Swiper>
       </div>
     </section>

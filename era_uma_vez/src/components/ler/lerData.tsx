@@ -1,24 +1,31 @@
-import Yasmin from "public/assets/icons/yasminAI.png"
+import Grufalo from "public/assets/images/ler/ogrufalo.png"
+import Link from "next/link";
 
-const cardsData = [
+const lerData = [
     {
       id: 1,
-      name: "hero",
-      title: "helo",
-      image: Yasmin,
+      name: "O Grúfalo",
+      href: <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298"> </Link>,
+      image: Grufalo,
     },
     {
       id: 2,
-      name: "hero",
-      title: "helo",
-      image: Yasmin,
+      name: "ubb",
+      href: <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298"> </Link>,
+      image: Grufalo,
     },
     {
       id: 3,
-      name: "hero",
-      title: "helo",
-      image: Yasmin,
+      name: "unin",
+      href: <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298"> </Link>,
+      image: Grufalo,
+    },
+    {
+      id: 4,
+      name: "ono",
+      href: <Link href="https://educacao.curitiba.pr.gov.br/noticias/unidade/moradias-iguacu-centro-municipal-de-educacao-infantil/18298"> </Link>,
+      image: Grufalo,
     },
   ];
   
-  export default cardsData;
+  export default lerData;
