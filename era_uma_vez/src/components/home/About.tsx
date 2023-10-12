@@ -36,7 +36,7 @@ const About = () => {
           </Link> 
           </div>
           <div className="flex justify-center">
-         <p className="pt-8 w-[75%] text-[1.12rem] md:text-[1.52rem] text-darkpurple">
+         <p className="pt-8 w-[75%] text-[1.12rem] md:text-[1.42rem] text-darkpurple">
          Olhando atentamente para o dia a dia das crianças, percebemos o quanto é importante incentivar o gosto pela leitura. Queremos aumentar o número de histórias que elas conhecem, usando tecnologias digitais para isso.
          </p> </div>
           <Image

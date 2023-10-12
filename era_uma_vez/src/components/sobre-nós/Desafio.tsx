@@ -25,7 +25,7 @@ const Desafio = () => {
           navigation={false}
           modules={[Autoplay, FreeMode, Pagination, Navigation]}
           breakpoints={{
-           420:{
+           400:{
               slidesPerView: 1.2,
             },
             500:{
@@ -56,8 +56,8 @@ const Desafio = () => {
           className="flex justify-center items-center">
           {sobreData.map((card) => (
             <SwiperSlide key={card.id}>
-              <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[278px] h-[280px] lg:w-[895px] md:w-[725px] md:h-[208px] rounded-2xl">
-                    <div className="flex px-4 lg:px-14">
+              <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[278px] h-[280px] lg:w-[895px] md:w-[725px] md:h-[200px] rounded-2xl">
+                    <div className="flex px-7 lg:px-14">
                       <p className="text-darkpurple text-[0.9rem] lg:text-[1.2rem]">
                         {card.text}
                       </p>

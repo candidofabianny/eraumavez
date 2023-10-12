@@ -1,61 +1,78 @@
 "use client";
 
-import cardsData from "./lerData";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination, Autoplay, Navigation} from "swiper/modules";
 import 'swiper/css/bundle';
+import grufalo from "public/assets/images/ler/ogrufalo.png"
 import Link from "next/link";
 
 function Livros() {
   return (
-    <section id="livros" className="w-full py-24 bg-[url('/assets/images/ler/bg_livros.png')] bg-center min-h-[615px]">
-      <h2 className="text-[1.3rem] lg:text-[2rem] px-4 text-center text-purple">
+    <section id="livros" className="flex flex-col items-center w-full py-24 bg-gradient-to-r from-[#D4FBFF] via-[#D4FBFF]/50 to-[#92F0F9]/50 min-h-screen">
+      <h2 className="text-[1.3rem] lg:text-[2rem] px-4 pb-14 text-center text-purple">
       Aqui se encontram PDF’s para baixar ou ler online
         </h2>
-      <div className="flex items-center pt-10 pl-5 md:pl-8 lg:pl-12 xl:pl-16 w-full mx-auto">
-        <Swiper
-          freeMode={true}
-          autoplay={{
-            delay: 5000,
-            pauseOnMouseEnter: true,
-          }}
-          slidesPerView={1.2}
-          spaceBetween={3}
-          navigation={false}
-          modules={[Autoplay, FreeMode, Pagination, Navigation]}
-          breakpoints={{
-            400:{
-              slidesPerView: 1.4,
-            },
-           500:{
-              slidesPerView: 1.9,
-            },
-            556:{
-              slidesPerView: 2.1,
-            },
-            730:{
-              slidesPerView: 2.8,
-            },
-            992:{
-              slidesPerView: 3,
-            },
-            1200:{
-              slidesPerView: 4,
-            },
-          }}
-          className="flex items-center justify-center mx-auto">
-         
-            <SwiperSlide>
-            <div className="swiper-slide" data-hash="slide1">Slide 1</div>
-    <div className="swiper-slide" data-hash="slide2">Slide 2</div>
-    <div className="swiper-slide" data-hash="slide3">Slide 3</div>
-    <div className="swiper-slide" data-hash="slide4">Slide 4</div>
-    <div className="swiper-slide" data-hash="slide5">Slide 5</div>
-            </SwiperSlide>
-        
-        </Swiper>
+      <div className="max-w-5xl grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items">
+        <div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div>
+        <div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div><div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div><div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div><div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div><div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div><div className="flex flex-col items-center">
+          <h1 className="font-aclonica text-darkpurple text-[1.4rem] pb-6">O Grúfalo</h1>
+          <Link href="o-grufalo">
+          <Image
+            src={grufalo} width={205} height={205}
+            alt="O Grúfalo"
+            className="lg:w-[226px] lg:h-[260px] hover:scale-105 transition-all duration-[100]"/>
+          </Link>
+        </div>
       </div>
+     
+     
     </section>
   );
 }

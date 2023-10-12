@@ -8,11 +8,11 @@ const Menu = () => {
       <div className="bg-[url('/assets/images/hero/bg_menu.png')] bg-center flex flex-col items-center justify-center min-h-[620px] w-full"> 
         <div className="hidden md:block">  
           <div className="flex items-center justify-center">
-        <p className="font-aclonica pt-16 px-32 text-[2.5rem] lg:text-[2.6rem] text-darkpurple text-left">
+        <p className="font-aclonica pt-16 px-32 text-[2.35rem] lg:text-[2.6rem] text-darkpurple text-left">
         Escolha o tipo
         </p>
           </div>
-          <p className="font-aclonica pb-4 px-32 text-[2.5rem] lg:text-[2.6rem] text-darkpurple text-left">
+          <p className="font-aclonica pb-4 px-32 text-[2.35rem] lg:text-[2.6rem] text-darkpurple text-left">
         de literatura
         </p>
         <div className="flex justify-around">
@@ -34,7 +34,7 @@ const Menu = () => {
             className="mx-auto pt-6"/> 
           </div>
         
-        <div className="md:hidden sm:block">
+        <div className="md:hidden">
         <div className="flex items-center justify-center">
         <p className="font-aclonica pt-16 pb-8 px-20 text-[2rem] text-darkpurple text-left">
         Escolha o tipo de literatura
