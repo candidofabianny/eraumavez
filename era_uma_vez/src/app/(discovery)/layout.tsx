@@ -4,6 +4,7 @@ import "./animation.css";
 import { Aclonica, Crushed } from "next/font/google";
 import Footer from "@/components/layout/Footer";
 
+
 const crushed = Crushed({
   subsets: ["latin"],
   display: "swap",

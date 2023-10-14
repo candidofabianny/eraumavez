@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import menino from "public/assets/images/hero/choices_boy.png"
+import menina from "public/assets/images/hero/aluna_vermelha.png"
 
 const Menu = () => {
   return (
@@ -30,7 +30,7 @@ const Menu = () => {
           </button> </Link> 
         </div>
         <Image
-            src={menino} width={258} height={225} alt="Menino"
+            src={menina} width={295} height={268} alt="Menino"
             className="mx-auto pt-6"/> 
           </div>
         
@@ -41,16 +41,22 @@ const Menu = () => {
         </p>
           </div>
         <div className="flex justify-center gap-4">
+          <Link href="/assistir">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-blue">
             Assitir </button>
+          </Link>
+          <Link href="/ler">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.8rem] text-grey hover:bg-red">
             Ler </button>
+          </Link>
+          <Link href="/escutar">
           <button className="w-20 h-20 bg-purple rounded-full text-[1.65rem] text-grey hover:bg-yellow">
             Escutar </button>
+          </Link>
         </div>
-        <div className="mt-16">
+        <div className="mt-10">
         <Image
-            src={menino} width={245} height={222} alt="Menu menino"
+            src={menina} width={270} height={258} alt="Menu menino"
             className="mx-auto"/> 
           </div>
        </div>
