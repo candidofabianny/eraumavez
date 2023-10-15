@@ -32,10 +32,10 @@ const OGrufalo = () => {
           <p className="mx-10 text-[1.1rem] py-4 underline">
           Julia Donaldson / Axel Scheffler
           </p>
-          <p className="text-purple mx-10 lg:max-w-[900px] text-left text-[1.15rem]">
+          <p className="text-purple mx-10 lg:max-w-[900px] text-left text-[1.15rem] pb-6">
           Usando de astúcia e imaginação, um ratinho vai criando um monstro terrível e assustador, o grúfalo, e diverte-se espantando seus predadores. Mas qual não é o seu espanto ao ver sua imaginação personificada à sua frente. "O Grúfalo", de Julia Donaldson, é uma divertida fábula sobre os poderes da nossa imaginação. </p>
           <Link href="/ler">
-           <div className="bg-yellow flex items-center justify-center border border-gray_smooth shadow-lg h-[50px] w-[120px] rounded-2xl">
+           <div className="bg-yellow flex items-center justify-center mx-10 border border-gray_smooth shadow-lg h-[50px] w-[120px] rounded-2xl">
              Voltar
            </div>
           </Link>
@@ -43,13 +43,13 @@ const OGrufalo = () => {
           </div>
         </div>
         <div className="lg:hidden pb-8">
-          <h1 className="text-purple mx-10 md:mx-14 pt-6 text-[2rem] md:text-[2.4rem]">
+          <h1 className="text-purple mx-10 md:mx-14 pt-6 text-[2.2rem] md:text-[2.5rem]">
             O Grúfalo
           </h1>
-          <p className="mx-10 md:mx-14 text-[0.9rem] md:text-[1.1rem] py-4 underline">
+          <p className="mx-10 md:mx-14 text-[1rem] md:text-[1.1rem] py-4 underline">
           Julia Donaldson / Axel Scheffler
           </p>
-          <p className="text-purple mx-10 md:mx-14 text-[0.9rem] md:text-[1.1rem]">
+          <p className="text-purple mx-10 md:mx-14 text-[1rem]">
           Usando de astúcia e imaginação, um ratinho vai criando um monstro terrível e assustador, o grúfalo, e diverte-se espantando seus predadores. Mas qual não é o seu espanto ao ver sua imaginação personificada à sua frente. "O Grúfalo", de Julia Donaldson, é uma divertida fábula sobre os poderes da nossa imaginação.</p>
         <div className="flex items-center justify-center pb-8">
         <div style={{

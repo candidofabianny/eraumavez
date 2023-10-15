@@ -44,13 +44,13 @@ const Ofilho = () => {
         </div>
 
         <div className="lg:hidden py-8">
-          <h1 className="text-purple mx-10 md:mx-14 text-[2rem] md:text-[2.4rem]">
+          <h1 className="text-purple mx-10 md:mx-14 text-[2.2rem] md:text-[2.5rem]">
             O Filho do Grúfalo
           </h1>
-          <p className="mx-10 md:mx-14 text-[0.9rem] md:text-[1.1rem] py-4 underline">
+          <p className="mx-10 md:mx-14 text-[1rem] md:text-[1.1rem] py-4 underline">
           Julia Donaldson / Axel Scheffler
           </p>
-          <p className="text-purple mx-10 md:mx-14 text-[0.9rem] md:text-[1.1rem]">
+          <p className="text-purple mx-10 md:mx-14 text-[1rem] md:text-[1.1rem]">
           O Grúfalo pai ensina ao filho que ele não deve sair e andar sozinho pela floresta, pois existe um Rato Mau por aí. Mas o Grúfalo filho sai escondido uma noite para procurar o Rato Mau.</p>
          <div className="flex items-center justify-center pb-8">
         <div style={{

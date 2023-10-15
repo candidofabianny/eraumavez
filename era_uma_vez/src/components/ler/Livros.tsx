@@ -31,7 +31,7 @@ function Livros() {
           </Link>
            </div>
            <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
-          <Link href="/sanduiche-da-maricota">
+          <Link href="/o-sanduiche-da-maricota">
           <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4">
             O Sanduíche da Maricota
           </h1>
@@ -42,13 +42,13 @@ function Livros() {
           </Link>
            </div>
            <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
-          <Link href="/cesta-da-dona-maricota">
+          <Link href="/cesta-de-dona-maricota">
           <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-4">
-            A Cesta da Dona Maricota
+            A Cesta de Dona Maricota
           </h1>
           <Image
             src={Cesta} width={64} height={64}
-            alt="A Cesta da Dona Maricota"
+            alt="A Cesta de Dona Maricota"
             className="hover:scale-125 transition-all duration-[100]"/>
           </Link>
            </div>
