@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import 'swiper/css/bundle';
-import joana from "public/assets/images/ler/joaninha_book.png";
-import Maricota from "public/assets/images/ler/vovozinha_book.png";
-import Sanduiche from "public/assets/images/ler/galinha_book.png";
-import Cachinhos from "public/assets/images/ler/cachinhos_book.png";
-import Grufalo from "public/assets/images/ler/grufalo_cover.png";
-import Filho from "public/assets/images/ler/filho_cover.png";
-import Livro from "public/assets/images/ler/familia_book.png";
-import Monstro from "public/assets/images/ler/monstro_book.png";
+import joana from "public/assets/images/ler/joaninha.png";
+import Milho from "public/assets/images/ler/espiga-de-milho.png";
+import Cores from "public/assets/images/ler/rgb.png";
+import Cesta from "public/assets/images/ler/cesta-de-piquenique.png";
+import Arvore from "public/assets/images/ler/arvore.png";
+import Flores from "public/assets/images/ler/lavanda.png";
+import Grufalo from "public/assets/images/ler/monstro.png";
+import Filho from "public/assets/images/ler/filho.png";
 import Link from "next/link";
 
 function Livros() {
@@ -17,80 +17,102 @@ function Livros() {
     <section id="livros" className="flex flex-col bg-[url('/assets/images/ler/bg_livros.png')] bg-cover bg-center items-center w-full py-16 min-h-screen">
       <h2 className="text-[1.3rem] lg:text-[2rem] px-4 pb-12 text-center text-purple">
       Aqui se encontram PDF’s para baixar ou ler online
-        </h2>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 md:gap-12 lg:gap-18 justify-items">
-        <div className="flex flex-col items-center">
-          <Link href="/joaninha-que-perdeu-pintinhas">
+      </h2>
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 md:gap-12 lg:gap-18 justify-items mx-4">
+        <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/joaninha-que-perdeu-as-pintinhas">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4">
+            A joaninha que perdeu as pintinhas
+          </h1>
           <Image
-            src={joana} width={75} height={300}
+            src={joana} width={50} height={50}
             alt="A Joaninha que perdeu as Pintinhas"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
+            className="hover:scale-125 transition-all duration-[100]"/>
           </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[100px]">A Joaninha que perdeu as Pintinhas</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="/dona-maricota">
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/sanduiche-da-maricota">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4">
+            O Sanduíche da Maricota
+          </h1>
           <Image
-            src={Maricota} width={75} height={305}
-            alt="A Cesta de Dona Maricota"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
-          </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[100px]">A Cesta de Dona Maricota</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="o-sanduiche-da-maricota">
-          <Image
-            src={Sanduiche} width={75} height={300}
+            src={Milho} width={64} height={64}
             alt="O Sanduíche da Maricota"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
+            className="hover:scale-125 transition-all duration-[100]"/>
           </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[100px]">O Sanduíche da Maricota</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="cachinhos">
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/cesta-da-dona-maricota">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-4">
+            A Cesta da Dona Maricota
+          </h1>
           <Image
-            src={Cachinhos} width={75} height={300}
-            alt="Cachinhos, conchinas, flores e ninhos"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
+            src={Cesta} width={64} height={64}
+            alt="A Cesta da Dona Maricota"
+            className="hover:scale-125 transition-all duration-[100]"/>
           </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[120px]">Cachinhos, Conchinas, Flores e Ninhos</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="o-grufalo">
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/o-monstro-das-cores">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-2">
+            O Monstro das Cores
+          </h1>
           <Image
-            src={Grufalo} width={75} height={300}
-            alt="O Grúfalo"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
-          </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[120px]">O Grúfalo</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="filho-grufalo">
-          <Image
-            src={Filho} width={75} height={300}
-            alt="O Filho do Grúfalo"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
-          </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[120px]">O Filho do Grúfalo</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="/livro-familia">
-          <Image
-            src={Livro} width={75} height={300}
-            alt="O Livro da Família"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
-          </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[120px]">O Livro da Família</h1>
-        </div>
-        <div className="flex flex-col items-center">
-          <Link href="/monstro-das-cores">
-          <Image
-            src={Monstro} width={75} height={300}
+            src={Cores} width={64} height={64}
             alt="O Monstro das Cores"
-            className="md:w-[102px] md:h-[240px] lg:w-[118px] lg:h-[250px] hover:scale-105 transition-all duration-[100]"/>
+            className="hover:scale-125 transition-all duration-[100]"/>
           </Link>
-          <h1 className="font-aclonica text-darkpurple text-[0.75rem] text-center pt-4 max-w-[120px]">O Monstro das Cores</h1>
-        </div>
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/o-livro-da-familia">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-2">
+            O Livro da Família
+          </h1>
+          <Image
+            src={Arvore} width={64} height={64}
+            alt="O Livro da Família"
+            className="hover:scale-125 transition-all duration-[100]"/>
+          </Link>
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/cachinhos-conchinhas-flores-e-ninhos">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-2">
+            Cachinhos, Conchinhas, Flores e Ninhos
+          </h1>
+          <Image
+            src={Flores} width={64} height={64}
+            alt="Cachinhos, Conchinhas, Flores e Ninhos"
+            className="hover:scale-125 transition-all duration-[100]"/>
+          </Link>
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/o-grufalo">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-2">
+            O Grúfalo
+          </h1>
+          <Image
+            src={Grufalo} width={64} height={64}
+            alt="O Grúfalo"
+            className="hover:scale-125 transition-all duration-[100]"/>
+          </Link>
+           </div>
+           <div className="bg-blue flex items-center justify-center border border-gray_smooth shadow-lg h-[190px] md:h-[220px] lg:md:h-[250px] w-[88px] md:w-[100px] lg:w-[118px] rounded-2xl">
+          <Link href="/o-filho-do-grufalo">
+          <h1 className="text-[#AAF7FF] text-[1.1rem] md:text-[1.2rem] text-center pt-4 pb-2">
+            O Filho do Grúfalo
+          </h1>
+          <Image
+            src={Filho} width={64} height={64}
+            alt="O Filho do Grúfalo"
+            className="hover:scale-125 transition-all duration-[100]"/>
+          </Link>
+           </div>
+        
+        
+        
+       
+        
+        
       </div>    
     </section>
   );

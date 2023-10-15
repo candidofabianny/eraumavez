@@ -4,7 +4,6 @@ import "./animation.css";
 import { Aclonica, Crushed } from "next/font/google";
 import Footer from "@/components/layout/Footer";
 
-
 const crushed = Crushed({
   subsets: ["latin"],
   display: "swap",
@@ -32,8 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${crushed.variable} ${aclonica.variable}`}
-    >
+      className={`${crushed.variable} ${aclonica.variable}`}>
         <body className="font-crushed">
           <Header />
           {children}

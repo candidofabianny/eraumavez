@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import Headroom from 'react-headroom';
 import logo from "/public/assets/icons/logo.svg"
 const Header = () => {
   return (
-    <header className="w-full py-1 fixed top-0 bg-opacity-95 bg-grey">
+    <Headroom>
+    <header className="w-full py-1 sticky z-index:100 top-0 bg-opacity-95 bg-grey">
     <nav className="w-full mx-auto flex items-center justify-center">
         <ul className="flex items-center gap-4 md:gap-7">
           <li>
@@ -37,6 +39,7 @@ const Header = () => {
         </ul>      
     </nav>
     </header>
+    </Headroom>
   );
 };
 

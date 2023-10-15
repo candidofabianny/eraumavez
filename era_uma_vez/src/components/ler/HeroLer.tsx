@@ -6,9 +6,9 @@ const HeroLer = () => {
   return (
     <section
       id="hero-ler"
-      className="bg-[#D4FBFF]/50 bg-center bg-cover flex flex-col justify-center min-h-[340px] w-full">
+      className="bg-[#D4FBFF]/50 bg-center bg-cover flex flex-col justify-center min-h-[320px] w-full">
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-purple max-w-[75%] lg:max-w-[70%] pt-20 md:pt-10 text-[2.4rem] md:text-[3.45rem]">
+        <h1 className="text-purple max-w-[75%] lg:max-w-[70%] pt-12 pb-4 md:pt-0 text-[2.4rem] md:text-[3.45rem]">
         Biblioteca Digital: Explore Nossas Histórias
         </h1>
       </div>
