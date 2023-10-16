@@ -24,7 +24,7 @@ const cardsData = [
     },
     {
         id: 4,
-        name: "Yasmin Ribas",
+        name: "Yasmin Rodrigues",
         text: "Professora de Educação Infantil",
         image: Yasmin,
       },
