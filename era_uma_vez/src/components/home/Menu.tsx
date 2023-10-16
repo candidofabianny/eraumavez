@@ -5,7 +5,7 @@ import menina from "public/assets/images/hero/aluna_vermelha.png"
 
 const Menu = () => {
   return (
-      <div className="bg-[url('/assets/images/hero/bg_menu.png')] bg-center flex flex-col items-center justify-center min-h-[620px] w-full"> 
+      <div className="bg-[url('/assets/images/hero/bg_menu.png')] bg-center flex flex-col items-center justify-center min-h-[550px] w-full"> 
         <div className="hidden md:block">  
           <div className="flex items-center justify-center">
         <p className="font-aclonica pt-16 px-32 text-[2.35rem] lg:text-[2.6rem] text-darkpurple text-left">
@@ -36,7 +36,7 @@ const Menu = () => {
         
         <div className="md:hidden">
         <div className="flex items-center justify-center">
-        <p className="font-aclonica pt-16 pb-8 px-20 text-[2rem] text-darkpurple text-left">
+        <p className="font-aclonica pt-12 pb-8 px-20 text-[1.8rem] text-darkpurple text-left">
         Escolha o tipo de literatura
         </p>
           </div>
@@ -54,9 +54,9 @@ const Menu = () => {
             Escutar </button>
           </Link>
         </div>
-        <div className="mt-10">
+        <div className="mt-8">
         <Image
-            src={menina} width={270} height={258} alt="Menu menino"
+            src={menina} width={220} height={220} alt="Menu menino"
             className="mx-auto"/> 
           </div>
        </div>

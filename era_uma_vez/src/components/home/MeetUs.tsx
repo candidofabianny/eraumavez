@@ -10,7 +10,7 @@ function MeetUs() {
   return (
     <section id="conheça-nos" className="w-full py-24 bg-[url('/assets/images/hero/bg_meetUs.png')] bg-center min-h-[615px]">
       <header className="w-full py-1 bg-opacity-95 bg-grey">
-      <h2 className="text-[2rem] text-center text-purple">
+      <h2 className="text-[1.8rem] text-center text-purple">
           Conheça o nosso projeto
         </h2>
         </header>

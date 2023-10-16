@@ -7,9 +7,9 @@ const CMEI = () => {
   return (
     <section
     id="acompanhe-cmei"
-    className="bg-[url('/assets/images/hero/bg_cmei.png')] bg-cover bg-center flex flex-col justify-center min-h-[690px] w-full">       
+    className="bg-[url('/assets/images/hero/bg_cmei.png')] bg-cover bg-start flex flex-col justify-center min-h-[690px] w-full">       
         <div className="flex items-center justify-center">
-        <h1 className="font-aclonica text-purple mx-4 text-[1.5rem] md:text-[1.9rem] pb-14 max-w-[370px] md:max-w-[470px] lg:max-w-[550px] text-center">
+        <h1 className="font-aclonica text-purple mx-4 text-[1.4rem] md:text-[1.9rem] pb-14 max-w-[370px] md:max-w-[470px] lg:max-w-[550px] text-center">
         Acompanhe o projeto e as nossas publicações no site do CMEI
         </h1>
         </div>

@@ -27,13 +27,13 @@ const DonaMaricota = () => {
         </div>
           <div className="w-3/4 mx-10">
           <h1 className="text-purple text-[2.8rem]">
-          A Cesta de Dona Maricota / Martinez
+          A Cesta de Dona Maricota
           </h1>
           <p className="text-[1.1rem] py-4 underline">
-          Tatiana Belinky
+          Tatiana Belinky / Martinez
           </p>
           <p className="text-purple lg:max-w-[900px] text-left text-[1.15rem] pb-6">
-          Numa harmonia lírica e dançante, os alimentos que preenchem o cesto de Dona Maricota chegam frescos da feira, desfiando as qualidades nutritivas que se escondem por trás das folhas verdes, frutas e legumes. Esta sinfonia de sabores, que se desenrola como um elegante balé culinário, revela-se como um convite para se render às maravilhas da natureza, uma celebração da saúde que se encontra na curva de cada alimento fresco.</p>
+          Numa harmonia lírica e dançante, os alimentos do cesto de Dona Maricota chegam da feira, desfiando as qualidades nutritivas que se escondem por trás das folhas verdes, frutas e legumes. Esta sinfonia de sabores revela-se como um convite para se render às maravilhas da natureza, uma celebração da saúde que se encontra em cada alimento fresco.</p>
           <Link href="/ler">
            <div className="bg-yellow flex items-center justify-center border border-gray_smooth shadow-lg h-[50px] w-[120px] rounded-2xl">
              Voltar
@@ -51,7 +51,7 @@ const DonaMaricota = () => {
           Tatiana Belinky / Martinez
           </p>
           <p className="text-purple mx-10 md:mx-14 text-[1rem] md:text-[1.1rem]">
-          Numa harmonia lírica e dançante, os alimentos que preenchem o cesto de Dona Maricota chegam frescos da feira, desencadeando uma atraente tentação, desfiando as qualidades nutritivas que se escondem por trás das folhas verdes, frutas suculentas e legumes viçosos. Esta sinfonia de sabores, que se desenrola como um elegante balé culinário, revela-se como um convite irresistível para se render às maravilhas da natureza, uma celebração da saúde que se encontra na sinuosidade das curvas de cada alimento fresco. Cada bocado é uma promessa de vitalidade e bem-estar, onde os ingredientes se metamorfoseiam em uma odisseia gastronômica que enche de alegria o coração de Dona Maricota e de todos que caem sob o encanto dessa magnífica e melódica oferta culinária.</p>
+          Numa harmonia lírica e dançante, os alimentos do cesto de Dona Maricota chegam da feira, desfiando as qualidades nutritivas que se escondem por trás das folhas verdes, frutas e legumes. Esta sinfonia de sabores revela-se como um convite para se render às maravilhas da natureza, uma celebração da saúde que se encontra em cada alimento fresco.</p>
           <div className="flex items-center justify-center pb-8">
         <div style={{
             height: '430px',

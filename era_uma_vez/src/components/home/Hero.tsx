@@ -8,10 +8,10 @@ import seta from "public/assets/images/hero/seta.svg"
 const Hero = () => {
   return (
     <section id="home"
-    className="bg-[url('/assets/images/hero/bg_hero.png')] bg-center flex flex-col items-center justify-center min-h-[645px] lg:min-h-[675px] w-full">       
-        <div className="hidden lg:block columns-2 mt-4">
+    className="bg-[url('/assets/images/hero/bg_hero.png')] bg-center flex flex-col items-center justify-center min-h-[645px] w-full">       
+        <div className="hidden lg:block columns-2">
         <div>
-        <h1 className="pt-36 lg:pt-28 px-16 text-[5.1rem] text-purple text-left">
+        <h1 className="pt-28 px-16 text-[5.1rem] text-purple text-left">
           Era uma vez
         </h1>
         <p className="px-16 text-[1.5rem] text-purple text-left">
@@ -36,8 +36,8 @@ const Hero = () => {
           </Link>  
         </div>
 
-        <div className="lg:hidden mt-32">
-        <h1 className="text-[4.6rem] text-purple text-center">
+        <div className="lg:hidden mt-24">
+        <h1 className="text-[4.4rem] text-purple text-center">
           Era uma vez
         </h1>
         <p className="px-[5%] lg:px-[10%] xl:px-[20%] text-[1rem] text-purple text-center">
