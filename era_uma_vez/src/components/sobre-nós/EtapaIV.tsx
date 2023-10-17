@@ -9,7 +9,7 @@ const EtapaIV = () => {
         <div className="md:hidden bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[80%] h-full rounded-2xl">
               <div className="flex px-6 py-6 lg:px-14">
                 <p className="text-purple text-[95%]">
-                A partir das histórias criadas pelas crianças, iremos confeccionar um robô com materiais recicláveis (caixas de papelão, caixas de leite, entre outros) o qual por meio de um dispositivo irá contar as histórias, e Solicitaremos que cada turma de a sujestão de um nome para o robô, realizaremos depois um sorteio com os nomes sugeridos.</p>
+                A partir das histórias criadas pelas crianças, iremos confeccionar um robô com materiais recicláveis (caixas de papelão, caixas de leite, entre outros) o qual por meio de um dispositivo irá contar as histórias, e Solicitaremos que cada aluno de a sujestão de um nome para o robô, realizaremos depois um sorteio com os nomes sugeridos.</p>
                 </div>
             </div>
           <div className="hidden md:block">
@@ -17,7 +17,7 @@ const EtapaIV = () => {
           <div className="bg-white flex items-center justify-center border border-gray_smooth shadow-lg w-[98%] h-full rounded-2xl">
               <div className="flex px-6 py-6">
                 <p className="text-purple text-[1rem] lg:text-[1.18rem]">
-                A partir das histórias criadas pelas crianças, iremos confeccionar um robô com materiais recicláveis (caixas de papelão, caixas de leite, entre outros) o qual por meio de um dispositivo irá contar as histórias, e Solicitaremos que cada turma de a sujestão de um nome para o robô, realizaremos depois um sorteio com os nomes sugeridos.</p>         </div>
+                A partir das histórias criadas pelas crianças, iremos confeccionar um robô com materiais recicláveis (caixas de papelão, caixas de leite, entre outros) o qual por meio de um dispositivo irá contar as histórias, e Solicitaremos que cada aluno de a sujestão de um nome para o robô, realizaremos depois um sorteio com os nomes sugeridos.</p>         </div>
             </div>
           <p className="justify-self-center text-purple font-aclonica md:text-[1.6rem] lg:text-[1.8rem] max-w-[300px] pt-8">ETAPA IV: Construção do robô</p>
             </div>
