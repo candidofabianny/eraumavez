@@ -86,7 +86,7 @@ const Footer = () => {
       
       <div className="hidden md:flex justify-between mx-auto gap-2 text-grey bg-[#6354AD] py-4">
         <p className="mx-20">2023 ©️ Era uma vez</p>
-        <p className="mx-20">Desenvolvido por fc Global tech</p>
+        <p className="mx-20">Desenvolvido por F2SC</p>
       </div>
       <div className="md:hidden flex justify-center mx-auto gap-2 text-grey bg-[#6354AD] py-4">
         <p className="mx-20">2023 ©️ Era uma vez</p>
