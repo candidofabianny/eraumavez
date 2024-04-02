@@ -5,6 +5,11 @@ const VideosAcervo = () => {
     <section
       id="videos-acervo"
       className="bg-[#D4FBFF]/50 flex flex-col min-h-[580px] w-full">
+        <div className="flex flex-col items-center justify-center pt-12 lg:pt-18">
+      <h1 className="text-darkpurple text-[1.65rem] md:text-[2.1rem] px-6">Meu Amigo Faz</h1>
+      <p className="text-blue text-[1.1rem] px-6 pb-6">por Fafá conta histórias</p>
+      <iframe width="80%" height="310" src="https://www.youtube.com/embed/z40CGS-g0vs?si=BQZgyZsWGr2iyvsH" title="Meu amigo faz" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="md:h-[340px] md:w-[72%] lg:h-[410px] lg:md:w-[52%]"></iframe>
+      </div>
       <div className="flex flex-col items-center justify-center pt-12 lg:pt-18">
       <h1 className="text-darkpurple text-[1.65rem] md:text-[2.1rem] px-6">O Monstro das Cores</h1>
       <p className="text-blue text-[1.1rem] px-6 pb-6">por Fafá conta histórias</p>
